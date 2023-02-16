@@ -43,8 +43,8 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["src"]                  # list of folders that contain the packages (["."] by default)
-include = ["gdr4mock*"]        # package names should match these glob patterns (["*"] by default)
-exclude = ["gdr4mock.tests*"]  # exclude packages matching these glob patterns (empty by default)
+include = ["gdr4mock*"]          # package names should match these glob patterns (["*"] by default)
+exclude = ["gdr4mock.tests*"]    # exclude packages matching these glob patterns (empty by default)
 namespaces = true                # to disable scanning PEP 420 namespaces (true by default)
 
 [tool.setuptools.package-data]
