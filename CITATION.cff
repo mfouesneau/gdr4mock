@@ -12,10 +12,10 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: online-dot
+title: gdr4mock
 message: If you use this software, please cite it using the metadata from this file.
-date-released: 2022-08-17
-url: 'https://github.com/mfouesneau/gitpod-python-template'
+date-released: 2023-05-01
+url: 'https://github.com/mfouesneau/gdr4mock'
 version: 0.1
 type: software
 authors:

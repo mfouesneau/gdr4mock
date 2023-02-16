@@ -15,11 +15,11 @@ requires = ["setuptools>=45",
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my_package"
-description = "Python project template for Gitpod and VSCode"
+name = "gdr4mock"
+description = "Generating Gaia Mock catalogs"
 readme = "README.md"
 requires-python = ">=3.8"
-keywords = ["template", "python", "gitpod", "vscode"]
+keywords = ["astronomy", "gaia", "simiulation", "python"]
 license = {text = "BSD 3-Clause License"}
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -34,7 +34,7 @@ dependencies = [
 dynamic = ["version"]
 
 [tool.setuptools_scm]
-# write_to = "src/my_package/__version__.py"
+write_to = "src/gdr4mock/__version__.py"
 
 [tool.setuptools]
 # By default, include-package-data is true in pyproject.toml, so you do
@@ -43,8 +43,8 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["src"]                  # list of folders that contain the packages (["."] by default)
-include = ["my_package*"]        # package names should match these glob patterns (["*"] by default)
-exclude = ["my_package.tests*"]  # exclude packages matching these glob patterns (empty by default)
+include = ["gdr4mock*"]        # package names should match these glob patterns (["*"] by default)
+exclude = ["gdr4mock.tests*"]  # exclude packages matching these glob patterns (empty by default)
 namespaces = true                # to disable scanning PEP 420 namespaces (true by default)
 
 [tool.setuptools.package-data]
@@ -73,7 +73,7 @@ docs = [
 
 
 # [project.scripts]
-# my-script = "my_package.module:function"
+# my-script = "gdr4mock.module:function"
 
 # ... other project metadata fields as specified in:
 #     https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
