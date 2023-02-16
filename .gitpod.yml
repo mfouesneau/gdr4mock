@@ -1,0 +1,17 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: "pip install conanpip install --upgrade pip"
+  - command: "pip install -e . && pip install -e .[docs] && pip install -e .[ci]"
+
+vscode:
+  extensions:
+    - njpwerner.autodocstring
+    - mutable-ai.mutable-ai
+    - genuitecllc.codetogether
+    - ms-python.python
+    - ms-toolsai.jupyter-renderers
+    - ms-toolsai.jupyter
+    - eamodio.gitlens
+    - mhutchie.git-graph
