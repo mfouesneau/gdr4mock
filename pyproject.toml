@@ -26,10 +26,11 @@ classifiers = [
     "License :: OSI Approved :: BSD 3-Clause License",
     "Operating System :: OS Independent"
 ]
-dependencies = [
-    "requests",
-    'importlib-metadata; python_version<"3.8"',
-]
+#dependencies = [
+#    "requests",
+#    'importlib-metadata; python_version<"3.8"',
+#]
+dependencies = {file = "requirements.txt"}
 
 dynamic = ["version"]
 
