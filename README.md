@@ -18,3 +18,10 @@ pip install .
 # and extras as
 pip install ".[ci]"
 ```
+
+## Notes
+
+Steps:
+
+1. Generates a Galaxia mock output.
+    Requires: Galaxia
